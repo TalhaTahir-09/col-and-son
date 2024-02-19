@@ -1,0 +1,77 @@
+/* Buttons */
+.button-anim {
+  padding: 0.25rem;
+  height: 33px;
+  z-index: 1;
+  transition: all 0.35s ease;
+}
+.button-anim:hover {
+  color: white;
+}
+.button-anim::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  scale: 0 1;
+  width: 100%;
+  z-index: -1;
+  transition: all 0.35s ease;
+}
+.button-anim:hover::after {
+  scale: 1 1;
+}
+input[type="radio"]:checked + .wallpaper-collection {
+  display: inline !important;
+  animation: fade-translate 0.5s linear forwards;
+}
+.slider-radio-2:checked + .slider .slider-card{
+    transform: translateX(-440px);
+}
+.discover-main-cont:hover img,
+.fungi-wrappper:hover img,
+.slider-card:hover .slider-img-cont img{
+    transform: scale(1.1);
+}
+.discover-main-cont:hover img,
+.fungi-wrappper img,
+.slider-img-cont img{
+    transition: transform 0.25s ease;
+}
+.slider-card{
+    transition: all 0.5s ease;
+}
+.wallpaper-button-discover::after{
+  background-color: var(--color-blue);
+}
+.wallpaper-button-discover:hover{
+  color: var(--color-dark-blue) !important;
+}
+
+.input-footer::placeholder{
+  font-family: 'Gill-Sans';
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+}
+.input-footer{
+  background-color: rgba(255, 255, 255, 0.301);
+  height: 40px;
+}
+.menu-opener-footer:checked + .country-picker-menu{
+  display: flex;
+}
+
+@keyframes fade-translate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+a:hover{
+  opacity: 0.5;
+}
+a{
+  transition: opacity 0.25s ease;
+}

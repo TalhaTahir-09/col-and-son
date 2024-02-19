@@ -1,2 +1,120 @@
 @import url(common.css);
 @import url(functionality.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+/* Header */
+.main-header {
+  width: 100vw;
+  height: 900px;
+}
+.bg-hero-video {
+  min-width: 100%;
+  height: 100%;
+}
+.header-main-content {
+  top: 60%;
+}
+/* Wallpaper-collection */
+.wallpaper-img-top,
+.wallpaper-img-cont {
+  height: 400px;
+}
+.wallpaper-content-3,
+.wallpaper-content {
+  background-color: var(--color-light-blue);
+}
+.wallpaper-content-2 {
+  background-color: var(--color-light-green);
+}
+.wallpaper-content-4 {
+  background-color: var(--color-brown);
+}
+.bx-radio-circle-marked,
+.bx-radio-circle {
+  font-size: 25px;
+}
+.wallpaper-button-radio {
+  justify-content: flex-start;
+}
+.wallpaper-label-1 {
+  margin-left: auto;
+}
+.wallpaper-button-2:hover {
+  color: var(--color-dark-blue);
+}
+.wallpaper-button-4:hover {
+  color: var(--color-dark-brown);
+}
+
+/*  */
+.slider-tile-and-arrow {
+  align-items: center;
+}
+.slider-img-cont {
+  height: 70vw;
+  width: 55vw;
+}
+.slider-img {
+  width: 70vw;
+}
+.footer-ul-cont,
+.slider {
+  gap: 2rem;
+}
+.fungi-forest-cont {
+  background-image: url(../assets/Images/Stella-McCartney-Cole_Son_Fungi-Forest_Burgundy-Flat.webp);
+}
+.fungi-wrappper {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+}
+.fungi-img-cont,
+.fungi-img {
+  width: 90vw;
+  aspect-ratio: 16/16;
+}
+.secondary-img-interier {
+  width: 50vw;
+  top: 25%;
+  right: 1rem;
+}
+.primary-img-interier {
+  width: 70vw;
+}
+.interier-img-cont {
+  aspect-ratio: 16/15.2;
+}
+.footer-cards .card {
+  gap: 1.5rem;
+}
+footer {
+  background-color: var(--color-dark-blue);
+}
+.footer-ul {
+  gap: 0.5rem;
+}
+.country-name-and-flag,
+.country-picker-menu {
+  gap: 1rem;
+}
+.footer-seperator {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.404);
+  height: 1px;
+}
+.footer-upper-seprator{
+  width: 50vw;
+  margin-top: 2rem;
+  content: "";
+  background-color: var(--color-dark-blue);
+  height: 1px;
+  margin-inline: auto;
+}
+

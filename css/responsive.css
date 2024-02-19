@@ -12,4 +12,67 @@
   .flex-column-800 {
     flex-direction: column;
   }
+  .flex-center-800 {
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-logo {
+    width: 80px;
+  }
+  .display-inline-800 {
+    display: inline;
+  }
+  .wallpaper-img-cont {
+    width: 60%;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 840px) {
+  .order-1-800 {
+    order: -1;
+  }
+  .wallpaper-content {
+    display: grid;
+    grid-template-columns: 52% 30%;
+    gap: 6rem;
+    padding-bottom: 6rem;
+  }
+  .wallpaper-L-img {
+    grid-area: 1;
+    padding: 2rem 4rem;
+  }
+  .slider-img {
+    width: 30vw;
+  }
+  .slider-img-cont {
+    height: 29vw;
+    width: 22vw;
+  }
+  .fungi-img-cont,
+  .fungi-img {
+    width: 44vw;
+    aspect-ratio: 5/3.5;
+    margin-block: auto;
+  }
+  .fungi-wrappper {
+    height: 40vw;
+    gap: 12rem;
+  }
+  .interier-img-cont {
+    width: 63vw;
+    padding: 2rem 4rem;
+  }
+  .primary-img-interier {
+    width: 38vw;
+  }
+  .secondary-img-interier {
+    width: 20vw;
+    right: 5rem;
+  }
+  .discover-main-cont{
+    padding-bottom: 5rem;
+  }
+  .footer-upper-seprator{
+    transform: rotate(90deg);
+  }
 }
