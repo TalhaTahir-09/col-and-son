@@ -117,4 +117,8 @@ footer {
   height: 1px;
   margin-inline: auto;
 }
-
+.fabrics-menu {
+  left: 0;
+  top: 90px;
+  padding: 0.5rem 2rem;
+  }
