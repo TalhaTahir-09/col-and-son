@@ -122,3 +122,16 @@ footer {
   top: 90px;
   padding: 0.5rem 2rem;
   }
+
+  .product-cards{
+    grid-template-columns: repeat(4 ,22%);
+}
+.img-cont-product img{
+  height: 100%;
+}
+.img-cont-product{
+   height: 20vw;
+}
+.img-cont-product{
+  aspect-ratio: 9/16;
+}

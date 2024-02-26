@@ -1,18 +1,26 @@
 :root{
-   --color-dark-brown: #7A3E13;
+   --color-dark-brown: #3E2B2B;
    --color-brown: #BA8F57;
    --color-light-brown: #F1E2C5;
-   --color-light-green: #C9D8CB;
+   --color-light-green-2: #85c48d ;
+   --color-light-green: rgb(47, 124, 57) ;
    --color-light-blue: #D9DEE2;
    --color-blue: #B5DEDC;
    --color-dark-blue: #00101D;
+   --color-dark-green: #0d1f0c;
    --color-grey: #3A525D;
 }
 
-
 /* Fonts */
+
 .color-dark-blue{
   color: var(--color-dark-blue);
+}
+.color-light-green{
+  color: var(--color-dark-green);
+}
+.color-brown{
+  color: var(--color-dark-brown);
 }
 @font-face {
   font-family: Gill-Sans;
@@ -208,6 +216,15 @@
 }
 .after-bc-white::after{
   background-color: white;
+}
+.after-bc-brown::after{
+  background-color: var(--color-dark-brown);
+}
+.hover-color-brown:hover{
+  color: var(--color-dark-brown) !important;
+}
+.hover-color-green:hover{
+  color: var(--color-dark-brown) !important;
 }
 .overflow-scroll{
   overflow: scroll;

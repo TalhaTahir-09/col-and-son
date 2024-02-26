@@ -27,11 +27,13 @@ input[type="radio"]:checked + .wallpaper-collection {
 .slider-radio-2:checked + .slider .slider-card{
     transform: translateX(-440px);
 }
+.img-cont-product:hover img,
 .discover-main-cont:hover img,
 .fungi-wrappper:hover img,
 .slider-card:hover .slider-img-cont img{
     transform: scale(1.1);
 }
+.img-cont-product img,
 .discover-main-cont:hover img,
 .fungi-wrappper img,
 .slider-img-cont img{
@@ -102,4 +104,7 @@ a{
   display: block;
   border-radius: 50%;
   background-size: contain;
+}
+.selection-radio-buttons-opener:checked + .selection-radio-buttons{
+  display: grid;
 }
