@@ -144,3 +144,10 @@ footer {
   top: 191px;
   height: max-content;
 }
+.grid-2-main{
+  grid-template-columns: 1fr 1fr;
+  max-width: 790px;
+}
+.img-and-cont-heritage{
+  grid-template-columns: 1fr 1fr;
+}

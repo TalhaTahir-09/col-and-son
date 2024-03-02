@@ -86,6 +86,15 @@
 .color-white {
   color: white;
 }
+.hover-color-dark-blue:hover{
+  color: var(--color-dark-blue) !important;
+  text-decoration: underline;
+  scale: 1.2;
+}
+.hover-color-dark-blue{
+  transition: 0.3s ease;
+}
+
 
 /* Utility Classes */
 .letter-spacing-add{
@@ -109,6 +118,9 @@
 .grid-center {
   display: grid;
   place-items: center;
+}
+.span-2{
+  grid-column: span 2;
 }
 
 .flex {
