@@ -148,3 +148,6 @@ footer {
   grid-template-columns: 1fr 1fr;
   max-width: 790px;
 }
+.img-and-cont-heritage{
+  grid-template-columns: 1fr 1fr;
+}
