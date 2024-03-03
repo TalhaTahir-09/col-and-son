@@ -7,20 +7,10 @@
   font-size: inherit;
   box-sizing: border-box;
 }
-nav {
-  margin-inline: auto;
+body{
+  overflow-x: hidden;
 }
-.main-header,
-nav,
-body > * {
-  max-width: 1400px;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 /* Header */
 .main-header {
   width: 100vw;
