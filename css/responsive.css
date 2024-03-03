@@ -98,3 +98,20 @@
     max-width: 37%;
    }
 }
+@media screen and (min-width: 1400px) {
+  nav {
+    margin-inline: auto;
+  }
+  .main-header,
+  nav,
+  body > * {
+    max-width: 1400px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
